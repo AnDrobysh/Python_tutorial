@@ -11,7 +11,7 @@ if len(a) > len(b):
 else:
     for number in b:
         if a.count(number) != 0:
-            a.remove(number))
+            a.remove(number)
             c.append(number)
 
 print(c)
