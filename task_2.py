@@ -19,9 +19,9 @@ input_string.lower()
 
 def is_palindrome(string):
     if string == ''.join(reversed(string)):
-        return 'palindrom'
+        return 'palindrome'
     else:
-        return 'not_palindrom'
+        return 'not_palindrome'
 
 
 print(is_palindrome(input_string))
