@@ -1,16 +1,14 @@
-def fibonacci(a):
+def fibonacci(sequential_number):
     z = 1
-    if a > 2:
-        z = fibonacci(a-1) + fibonacci(a-2)
+    if sequential_number > 2:
+        z = fibonacci(sequential_number - 1) + fibonacci(sequential_number - 2)
     return z
 
 
 a = int(input('введите номер числа из последовательности Фибонначи'))
 
 
-c = [1]
-i = 1
-x = 1
+x, i, c = 1, 1, [1]
 
 while i < a:
     c.insert(i, x)
